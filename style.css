@@ -3,13 +3,6 @@
     src: url(/resources/Fonts/NotoNaskhArabic-VariableFont_wght.ttf);
  }
 
-.notes{
-    margin-right: 3vw;
-    font-size: 2vw;
-    direction: rtl;
-    font-family: NotoNaskhArabic;
-} 
-
 #note{
     font-size: 2vw;
     direction: rtl;
