@@ -2,7 +2,19 @@
     font-family: NotoNaskhArabic;
     src: url(/resources/Fonts/NotoNaskhArabic-VariableFont_wght.ttf);
  }
- 
+
+.notes{
+    margin-right: 3vw;
+    font-size: 4vw;
+    direction: rtl;
+    font-family: NotoNaskhArabic;
+} 
+
+#note{
+    font-size: 4vw;
+    direction: rtl;
+    margin-right: 4vw;
+}
  body{
     padding: 0;
     margin: 0;
