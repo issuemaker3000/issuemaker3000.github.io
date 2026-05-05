@@ -1,0 +1,257 @@
+ @font-face {
+    font-family: NotoNaskhArabic;
+    src: url(/resources/Fonts/NotoNaskhArabic-VariableFont_wght.ttf);
+ }
+ 
+ body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+
+}
+
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+}
+.aboutus{
+    font-family:NotoNaskhArabic;
+    direction: rtl;
+    margin-right: 2vw;
+}
+
+
+
+
+
+
+
+
+
+#titlediv p{
+    text-align: center;
+}
+
+#title{
+    font-size: 4vw;
+    max-block-size: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#topbar{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+
+}
+
+#topbar li{
+    flex: 1;
+    text-align: center;
+    max-width: 650px;
+    background-color: rgb(41, 39, 39);
+    height: auto;
+    color: rgb(239, 239, 239);
+    border: 1px double rgb(123, 117, 117)
+}
+#topbar li a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+#topbar li:hover{
+    background-color: rgb(49, 48, 48);
+}
+
+.tablestyle1{
+    border-style: dashed ;
+    border-color: rgb(0, 0, 0) ;
+    width: 70vw;
+    max-width: 500px;
+    margin: auto
+}
+  
+
+
+
+
+
+
+
+
+#mealstable{
+    border-radius: 10px;
+    max-width: 900px;
+    margin-bottom: 5vh;
+}
+
+#mealstable .showmore{
+    height: 4vh; 
+    width: 5vw;
+}
+#mealstable .checkfoodbutton{
+     height: 4vh; 
+     width: 5vw;
+}
+#mealstable th{
+
+    background-color: rgb(237, 93, 93);
+    width: 80vw;
+}
+
+#mealstable td{
+    
+    background-color: rgb(237, 93, 93);
+    width: 80vw;
+    text-align: center;
+}
+.mealsdesc{
+    background-color: rgb(237, 93, 93);
+    width: 80vw;
+    height: 10vh;
+}
+#mealstable td p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#mealstable p{
+    color: white
+}
+
+#Table1 th{
+    background-color: rgb(191, 255, 234);
+    width: 70vw;
+    
+}
+
+#Table1 td{
+    background-color: rgb(197, 197, 255);
+    text-align: center;
+}
+
+
+
+
+
+
+
+.details{
+    display: none;
+}
+
+
+
+
+
+.mealrow1:has(.showmorebutton1:checked) + .details1 {
+  display: table-row;
+}
+
+.mealrow2:has(.showmorebutton2:checked) + .details2 {
+  display: table-row;
+}
+
+.mealrow3:has(.showmorebutton3:checked) + .details3 {
+  display: table-row;
+}
+
+.mealrow4:has(.showmorebutton4:checked) + .details4 {
+  display: table-row;
+}
+
+.mealrow5:has(.showmorebutton5:checked) + .details5 {
+  display: table-row;
+}
+
+
+
+
+
+.detailstext{
+    text-align: right; 
+    margin-right: 1vw;
+    font-size: 1.2em;
+}
+.detailslist{
+    list-style: none;
+}
+.detailsimg{
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#continuediv{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    
+}
+#continuebutton{
+    display: flex;
+    margin-bottom: 4vh;
+    justify-content: center;
+    border-width: 2px;
+    border-radius: 10px;
+    width: 20vw;
+    max-width: 150px;
+    background-color: rgb(41, 39, 39);
+    cursor: pointer;
+}
+
+#continuebutton p{
+    width: fit-content;
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 130%;
+    text-align: center;
+}
+#continuebutton:hover{
+    background-color: rgb(60, 60, 60);
+}
+
+
+
+#parentformdivdiv{
+    
+    display: flex;
+    justify-content: center;
+}
+#formdiv{
+    padding: 2px 10px 2px 10px;
+    background-color: rgb(210, 213, 213);
+    display: flex;
+    justify-content: center;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: black;
+}
+#buttdiv{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+#field{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
